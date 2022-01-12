@@ -14,3 +14,11 @@ docker-compose up -d
 ```
 npm run migrate
 ```
+### Seed database with transactions data
+```
+npx prisma db seed
+```
+### Run API server
+```
+npm run dev
+```
