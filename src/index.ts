@@ -18,6 +18,7 @@ const startServer = async () => {
     }
 
     type Transaction {
+      prismaid: ID!
       id: String!
       createdAt:   String
       updatedAt:   String
