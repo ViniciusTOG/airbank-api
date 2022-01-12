@@ -14,16 +14,19 @@ docker-compose up -d
 ```
 npm run migrate
 ```
-### Seed database with transactions data
+
+### Check your data with Prisma Studio
+```
+npx prisma studio
+```
+
+### If needed, seed your database with transactions data
+Be carefull if it's not seeded already
 ```
 npx prisma db seed
 ```
-Careful when seeding your database. You can check if it's not already seeded by the previous command with prisma studio
-```
-npx prisma studio.
-```
 
-### Run API server
+### Run api
 ```
 npm run dev
 ```
