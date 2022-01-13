@@ -20,13 +20,13 @@ npm run migrate
 npx prisma studio
 ```
 
-### If needed, seed your database with transactions data
-Be carefull if it's not seeded already
+### If needed only, seed your database with transactions data
+Be carefull, check if it's not seeded already
 ```
 npx prisma db seed
 ```
 
-### Run api
+### Run API
 ```
 npm run dev
 ```
