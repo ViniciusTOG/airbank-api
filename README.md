@@ -35,3 +35,7 @@ npm run dev
 ```
 npx prisma migrate reset
 ```
+### (bugfix) If you are using Windows bash shell, might need to install ts-node as global
+```
+npm install -g ts-node
+```
