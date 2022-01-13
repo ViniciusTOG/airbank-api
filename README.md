@@ -30,3 +30,8 @@ npx prisma db seed
 ```
 npm run dev
 ```
+
+### If you need to reset and reseed your database
+```
+npx prisma migrate reset
+```
